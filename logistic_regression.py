@@ -119,7 +119,7 @@ def fit(X, y, lr, lambda_reg, stopping_threshold):
 
 # Call the fit function with the stopping_threshold
 learning_rate = 0.001
-lambda_reg = 0.01
+lambda_reg = 0.1
 stopping_threshold = 1e-6
 
 weights, bias, losses,n_iters = fit(X_train, y_train, learning_rate, lambda_reg, stopping_threshold)
